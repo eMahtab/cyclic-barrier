@@ -45,3 +45,23 @@ public class MultiplayerGame {
     }
 }
 ```
+
+**Execution Output :**
+```
+Thread-3 , Player 4 setup is being prepared...
+Thread-2 , Player 3 setup is being prepared...
+Thread-4 , Player 5 setup is being prepared...
+Thread-1 , Player 2 setup is being prepared...
+Thread-0 , Player 1 setup is being prepared...
+Thread-3 , Player 4 is ready.
+Thread-2 , Player 3 is ready.
+Thread-0 , Player 1 is ready.
+Thread-4 , Player 5 is ready.
+Thread-1 , Player 2 is ready.
+All players are ready. Let's start the game!
+Thread-3 , Player 4 starts the game!
+Thread-0 , Player 1 starts the game!
+Thread-2 , Player 3 starts the game!
+Thread-4 , Player 5 starts the game!
+Thread-1 , Player 2 starts the game!
+```
